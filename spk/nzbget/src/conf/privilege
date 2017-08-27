@@ -3,6 +3,7 @@
 		"run-as": "package"
 	},
 	"username": "sc-nzbget",
+	"groupname": "sc-media",
 	"ctrl-script": [{
 		"action": "preinst",
 		"run-as": "root"
