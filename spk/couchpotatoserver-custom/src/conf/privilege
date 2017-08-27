@@ -3,6 +3,7 @@
 		"run-as": "package"
 	},
 	"username": "sc-couchpotatoserver-custom",
+	"groupname": "sc-media",
 	"ctrl-script": [{
 		"action": "preinst",
 		"run-as": "root"
