@@ -11,7 +11,7 @@ DESCRIPTION = NZBGet is a command-line based binary newsgrabber for nzb files, w
 DESCRIPTION_FRE = NZBGet est un récupérateur de news en ligne de commande écrit en C++ pour les fichiers nzb. Il intègre un mode client/serveur, la vérification, réparation et décompression automatique ainsi qu\\\'une interface web. NZBGet requiert peu de ressources système.
 DESCRIPTION_SPN = NZBGet es una aplicación de linea de comandos escrita en C++ para descargar binarios, desde servidores de noticias, utilizando archivos nzb. Soporta modo cliente y servidor, verificación y descompresión automática y una interfaz web. NZBGet utiliza pocos recursos de sistema.
 RELOAD_UI = yes
-ADMIN_PORT = 9876
+ADMIN_PORT = 6789
 DISPLAY_NAME = NZBGet
 CHANGELOG = "1. Update NZBGet to 19.1"
 
