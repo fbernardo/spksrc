@@ -6,10 +6,9 @@ DNAME="CouchPotato Custom"
 
 # Others
 INSTALL_DIR="/usr/local/${PACKAGE}"
-PYTHON_DIR="/usr/local/python"
 GIT_DIR="/usr/local/git"
-PATH="${INSTALL_DIR}/bin:${INSTALL_DIR}/env/bin:${PYTHON_DIR}/bin:${GIT_DIR}/bin:${PATH}"
-PYTHON="${INSTALL_DIR}/env/bin/python"
+PATH="${INSTALL_DIR}/bin:${GIT_DIR}/bin:${PATH}"
+PYTHON="/bin/python"
 BUILDNUMBER="$(/bin/get_key_value /etc.defaults/VERSION buildnumber)"
 COUCHPOTATOSERVER="${INSTALL_DIR}/var/CouchPotatoServer/CouchPotato.py"
 CFG_FILE="${INSTALL_DIR}/var/settings.conf"
