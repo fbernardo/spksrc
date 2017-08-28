@@ -13,7 +13,7 @@ CFG_FILE="${INSTALL_DIR}/var/nzbget.conf"
 PID_FILE="${INSTALL_DIR}/var/nzbget.pid"
 LOG_FILE="${INSTALL_DIR}/var/nzbget.log"
 
-SC_USER="sc-nzbget"
+SC_USER="sc-media"
 LEGACY_USER="nzbget"
 USER="$([ "${BUILDNUMBER}" -ge "7321" ] && echo -n ${SC_USER} || echo -n ${LEGACY_USER})"
 

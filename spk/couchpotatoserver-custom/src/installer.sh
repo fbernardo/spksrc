@@ -18,7 +18,7 @@ BUILDNUMBER="$(/bin/get_key_value /etc.defaults/VERSION buildnumber)"
 FWPORTS="/var/packages/${PACKAGE}/scripts/${PACKAGE}.sc"
 
 DSM6_UPGRADE="${INSTALL_DIR}/var/.dsm6_upgrade"
-SC_USER="sc-couchpotatoserver-custom"
+SC_USER="sc-media"
 SC_GROUP="sc-media"
 SC_GROUP_DESC="SynoCommunity's media related group"
 LEGACY_USER="couchpotatoserver-custom"

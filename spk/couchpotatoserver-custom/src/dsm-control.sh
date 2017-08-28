@@ -15,7 +15,7 @@ CFG_FILE="${INSTALL_DIR}/var/settings.conf"
 PID_FILE="${INSTALL_DIR}/var/couchpotatoserver-custom.pid"
 LOG_FILE="${INSTALL_DIR}/var/logs/CouchPotato.log"
 
-SC_USER="sc-couchpotatoserver-custom"
+SC_USER="sc-media"
 LEGACY_USER="couchpotatoserver-custom"
 USER="$([ "${BUILDNUMBER}" -ge "7321" ] && echo -n ${SC_USER} || echo -n ${LEGACY_USER})"
 

@@ -16,7 +16,7 @@ CFG_FILE="${INSTALL_DIR}/var/config.ini"
 PID_FILE="${INSTALL_DIR}/var/sickbeard-custom.pid"
 LOG_FILE="${INSTALL_DIR}/var/Logs/sickbeard.log"
 
-SC_USER="sc-sickbeard-custom"
+SC_USER="sc-media"
 LEGACY_USER="sickbeard-custom"
 USER="$([ "${BUILDNUMBER}" -ge "7321" ] && echo -n ${SC_USER} || echo -n ${LEGACY_USER})"
 
