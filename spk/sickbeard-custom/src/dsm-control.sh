@@ -6,10 +6,9 @@ DNAME="SickBeard Custom"
 
 # Others
 INSTALL_DIR="/usr/local/${PACKAGE}"
-PYTHON_DIR="/usr/local/python"
 GIT_DIR="/usr/local/git"
-PATH="${INSTALL_DIR}/bin:${INSTALL_DIR}/env/bin:${PYTHON_DIR}/bin:${GIT_DIR}/bin:${PATH}"
-PYTHON="${INSTALL_DIR}/env/bin/python"
+PATH="${INSTALL_DIR}/bin:${GIT_DIR}/bin:${PATH}"
+PYTHON="/bin/python"
 GIT="${GIT_DIR}/bin/git"
 BUILDNUMBER="$(/bin/get_key_value /etc.defaults/VERSION buildnumber)"
 SICKBEARD="${INSTALL_DIR}/var/SickBeard/SickBeard.py"
