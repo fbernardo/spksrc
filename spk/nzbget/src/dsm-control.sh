@@ -6,8 +6,7 @@ DNAME="NZBGet"
 
 # Others
 INSTALL_DIR="/usr/local/${PACKAGE}"
-PYTHON_DIR="/usr/local/python"
-PATH="${INSTALL_DIR}/bin:${PYTHON_DIR}/bin:${PATH}"
+PATH="${INSTALL_DIR}/bin:/bin:${PATH}"
 BUILDNUMBER="$(/bin/get_key_value /etc.defaults/VERSION buildnumber)"
 NZBGET="${INSTALL_DIR}/bin/nzbget"
 CFG_FILE="${INSTALL_DIR}/var/nzbget.conf"
